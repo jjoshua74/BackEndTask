@@ -3,8 +3,13 @@
 python libraries:
 django
 djangorestframework
+virtualenv
 
-create a virtual environment and install 
+instructions:
+pip install virtualenv
+
+within the virtual environment, install:
+
 pip install django
 pip install djangorestframework
 
