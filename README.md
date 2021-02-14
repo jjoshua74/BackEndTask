@@ -1,8 +1,8 @@
 # BackEndTask
  
 python libraries:
-pip install django
-pip install djangorestframework
+django
+djangorestframework
 
 create a virtual environment and install 
 pip install django
