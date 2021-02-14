@@ -8,7 +8,7 @@ virtualenv
 instructions:
 pip install virtualenv
 
-within the virtual environment, install:
+create a virtual environment and run the following commands within it:
 
 pip install django
 pip install djangorestframework
