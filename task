@@ -1,0 +1,22 @@
+Back End Task
+The task is to build a RESTful JSON API using Django for a simple blog. As
+you will be building an API, there is no requirement for any front-end
+templates or pages.
+This task might take longer than the allowed time to complete. With this
+in mind, please work with an incremental approach, so that if you run out
+of time, you have completed some parts of the task.
+The API should have the ability to list and retrieve articles, with their
+title, content, created date, last modified date and author.
+The API should also have the ability to add and delete articles, which are
+only accessible to admin users. APIs for adding and managing admin
+users are not necessary, as these can be done with Django’s admin tools.
+Articles should have comments, which anyone can add, list and retrieve
+using a separate API endpoint.
+Only admin users should be able to delete comments.
+Comments should contain their content as well as a name for the user,
+unless the user is an admin, where the name can be derived from the
+admin user record.
+
+If there is any remaining time, please add appropriate unit tests.
+Please use git for source control, and make your code available online
+through GitHub, Gitlab, or Bitbucket.
