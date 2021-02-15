@@ -20,6 +20,19 @@ python manage.py runserver
 
 ------------------------------------------------------------------
 
+Endpoints: 
+Localhost:8000/articles/
+- lists all the articles
+
+Localhost:8000/articles/1/
+- returns the article with id=1
+
+Localhost:8000/articles/1/comments/
+- returns all the comments for article 1
+
+Localhost:8000/articles/1/comments/2
+- returns the comment with id=2 for article 1
+
 Unit tests:
 # Units tests are also something new to me. For some reason the 'from .models import Article' doesn't work in this file.
 # I can't figure out what is causing the import error - so this file does not run. I have added a few examples of
